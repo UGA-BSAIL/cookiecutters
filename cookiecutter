@@ -1,0 +1,27 @@
+2023-11-02T13:37:16,519 Using pip 22.3.1 from /home/daniel/.pyenv/versions/3.11.1/lib/python3.11/site-packages/pip (python 3.11)
+2023-11-02T13:37:16,519 Non-user install because site-packages writeable
+2023-11-02T13:37:16,991 Created temporary directory: /tmp/pip-build-tracker-2va6mayn
+2023-11-02T13:37:16,991 Initialized build tracking at /tmp/pip-build-tracker-2va6mayn
+2023-11-02T13:37:16,991 Created build tracker: /tmp/pip-build-tracker-2va6mayn
+2023-11-02T13:37:16,991 Entered build tracker: /tmp/pip-build-tracker-2va6mayn
+2023-11-02T13:37:16,991 Created temporary directory: /tmp/pip-install-k2z009hh
+2023-11-02T13:37:16,991 ERROR: You must give at least one requirement to install (see "pip help install")
+2023-11-02T13:37:16,991 Exception information:
+2023-11-02T13:37:16,991 Traceback (most recent call last):
+2023-11-02T13:37:16,991   File "/home/daniel/.pyenv/versions/3.11.1/lib/python3.11/site-packages/pip/_internal/cli/base_command.py", line 160, in exc_logging_wrapper
+2023-11-02T13:37:16,991     status = run_func(*args)
+2023-11-02T13:37:16,991              ^^^^^^^^^^^^^^^
+2023-11-02T13:37:16,991   File "/home/daniel/.pyenv/versions/3.11.1/lib/python3.11/site-packages/pip/_internal/cli/req_command.py", line 247, in wrapper
+2023-11-02T13:37:16,991     return func(self, options, args)
+2023-11-02T13:37:16,991            ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023-11-02T13:37:16,991   File "/home/daniel/.pyenv/versions/3.11.1/lib/python3.11/site-packages/pip/_internal/commands/install.py", line 344, in run
+2023-11-02T13:37:16,991     reqs = self.get_requirements(args, options, finder, session)
+2023-11-02T13:37:16,991            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023-11-02T13:37:16,991   File "/home/daniel/.pyenv/versions/3.11.1/lib/python3.11/site-packages/pip/_internal/cli/req_command.py", line 458, in get_requirements
+2023-11-02T13:37:16,991     raise CommandError(
+2023-11-02T13:37:16,991 pip._internal.exceptions.CommandError: You must give at least one requirement to install (see "pip help install")
+2023-11-02T13:37:17,101 Remote version of pip: 23.3.1
+2023-11-02T13:37:17,101 Local version of pip:  22.3.1
+2023-11-02T13:37:17,106 Was pip installed by pip? True
+2023-11-02T13:37:17,106 WARNING: [present-rich] UpgradePrompt(old='22.3.1', new='23.3.1')
+2023-11-02T13:37:17,106 Removed build tracker: '/tmp/pip-build-tracker-2va6mayn'
